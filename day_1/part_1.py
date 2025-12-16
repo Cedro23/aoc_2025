@@ -5,7 +5,7 @@
 # Password is the number of times the dial lands on 0.
 
 # open instructions file
-with open("day_1\part_1\input.txt", "r") as file:
+with open("day_1\\inputs\\input.txt", "r") as file:
     instructions = file.readlines()
 
 # separate instructions into list of tuples (direction, steps)
